@@ -1,71 +1,71 @@
-# vsc-extension-ig
-# IG Presence Connector para VSCode 🚀
+# ig-presence-vsc README
 
- <!-- Reemplaza esta URL con la de tu propio icono si tienes una -->
+This is the README for your extension "ig-presence-vsc". After writing up a brief description, we recommend including the following sections.
 
-¡Lleva tu "Rich Presence" al siguiente nivel! Esta extensión conecta tu actividad de Visual Studio Code con la extensión **[IG Presence para Chrome](https://github.com/pyth0nY/instagramPresent)**, permitiendo que tus amigos en Instagram vean en qué archivo y lenguaje estás programando, en tiempo real.
+## Features
 
-Inspirado en el Rich Presence de Discord, pero llevado directamente a tu perfil de Instagram.
+Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
----
+For example if there is an image subfolder under your extension project workspace:
 
-## ✨ Características
+\!\[feature X\]\(images/feature-x.png\)
 
-*   **Actividad en Tiempo Real:** Muestra el archivo y el lenguaje en el que estás trabajando.
-*   **Totalmente Integrado:** Se comunica a través de una base de datos central (Supabase) con la extensión de Chrome.
-*   **Inteligente y Eficiente:** Solo envía actualizaciones cuando cambias de archivo o después de un par de segundos de inactividad para no saturar la red.
-*   **Fácil de Configurar:** Un solo clic para configurar tu nombre de usuario.
-*   **Privacidad:** La extensión solo actualiza el estado en la base de datos; al cerrar VSCode, la actividad de programación desaparece.
+> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
----
+## Requirements
 
-## ⚙️ Cómo Funciona
+If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
-Esta extensión es una de las dos piezas del sistema IG Presence:
+## Extension Settings
 
-1.  **Extensión para VSCode (esta):** Detecta tu actividad de programación y la envía a la base de datos de Supabase.
-2.  **Extensión para Chrome:** Lee tu estado y el de tus amigos de la base de datos y lo muestra en una UI flotante dentro de Instagram.
+Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-Ambas extensiones son necesarias para que la experiencia sea completa.
+For example:
 
----
+This extension contributes the following settings:
 
-## 🚀 Guía de Instalación y Configuración
+* `myExtension.enable`: Enable/disable this extension.
+* `myExtension.thing`: Set to `blah` to do something.
 
-Instalar y poner en marcha IG Presence es muy fácil. ¡Sigue estos pasos!
+## Known Issues
 
-### 1. Instala la Extensión de Chrome
+Calling out known issues can help limit users opening duplicate issues against your extension.
 
-Primero, necesitas la extensión principal que se encarga de mostrar la actividad en Instagram.
-> 🔗 **[Descarga la extensión para Chrome aquí](https://github.com/pyth0nY/instagramPresent)**
+## Release Notes
 
-### 2. Instala esta Extensión para VSCode
+Users appreciate release notes as you update your extension.
 
-Puedes instalarla directamente desde el Marketplace de Visual Studio Code buscando **"IG Presence Connector"**.
+### 1.0.0
 
-### 3. Configura tu Usuario
+Initial release of ...
 
-Una vez instalada, la configuración es súper sencilla:
+### 1.0.1
 
-1.  Abre Visual Studio Code.
-2.  En la barra de estado de abajo a la izquierda, verás un nuevo icono:
-    `$(person) IG Presence: Configurar`
-3.  **Haz clic sobre él.**
-4.  Aparecerá una caja de texto en la parte superior. **Introduce tu nombre de usuario de Instagram** (el mismo que usas en la red social, por ejemplo, `kasuto_16`).
-5.  ¡Presiona Enter y listo!
+Fixed issue #.
 
- <!-- Un GIF aquí quedaría genial. Puedes crear uno con LICEcap o ScreenToGif -->
+### 1.1.0
 
-A partir de ese momento, la extensión comenzará a enviar tu actividad de programación. La barra de estado cambiará a `$(pulse) IG Presence: Programando...` para que sepas que está funcionando.
+Added features X, Y, and Z.
 
 ---
 
-## 🤝 Contribuciones
+## Following extension guidelines
 
-Este es un proyecto open-source hecho con mucho cariño. Si tienes ideas para mejorarlo, encuentras un bug o quieres añadir nuevas funcionalidades, ¡eres bienvenido! Siéntete libre de abrir un *issue* o un *pull request* en el repositorio de GitHub.
+Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
 
-> 🔗 **[Repositorio de GitHub](https://github.com/pyth0nY/vsc-extension-ig) 
+* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
 
----
+## Working with Markdown
 
-**¡Disfruta de tu nuevo Rich Presence en Instagram! 🔥**
+You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+
+* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
+* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
+* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+
+## For more information
+
+* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+
+**Enjoy!**
