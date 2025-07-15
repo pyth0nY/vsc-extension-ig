@@ -37,7 +37,7 @@ Instalar y poner en marcha IG Presence es muy fácil. ¡Sigue estos pasos!
 ### 1. Instala la Extensión de Chrome
 
 Primero, necesitas la extensión principal que se encarga de mostrar la actividad en Instagram.
-> 🔗 **[Descarga la extensión para Chrome aquí](URL_A_TU_EXTENSION_DE_CHROME_AQUI)** *(¡Importante! Reemplaza este enlace cuando la publiques)*
+> 🔗 **[Descarga la extensión para Chrome aquí](https://github.com/pyth0nY/instagramPresent)**
 
 ### 2. Instala esta Extensión para VSCode
 
